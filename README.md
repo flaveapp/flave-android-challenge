@@ -1,7 +1,7 @@
 # Flave Android Coding Challenge
 
 
-The purpose of this technical challenge is to get an idea of the depth of your android knowledge. There is no specific right answer or approach. There is no specific amount of time that this challenge requires to complete. The requirements laid out below describe what is required at a minium, and what would be "nice to have". It is up to you to decide what concepts, tools and approaches you want to take to meet the minimum requirements. Please feel free to spend as much time as you’d like crafting your solution and we hope you have fun along the way
+The purpose of this technical challenge is to get an idea of the depth of your android knowledge. There is no specific right answer or approach. There is no specific amount of time that this challenge requires to complete. The requirements laid out below describe what is required at a minium, and some that are optional. It is up to you to decide what concepts, tools and approaches you want to take to meet the minimum requirements. Please feel free to spend as much time as you’d like crafting your solution and we hope you have fun along the way
 
 # Android Coding Challenge: Build a Friend List!
 
