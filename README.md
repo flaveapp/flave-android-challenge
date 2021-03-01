@@ -15,7 +15,7 @@ Your challenge is to build a vertically scrolling list which displays some metad
 4. A friend object has a field called `favoriteColor`. This should be used as the background color of the list item container/card
 5. Tapping/clicking a list item row in the list will display an [AlertDialog](https://developer.android.com/reference/android/app/AlertDialog), [Toast](https://developer.android.com/reference/android/widget/Toast), [Snackbar](https://developer.android.com/reference/com/google/android/material/snackbar/Snackbar) or some other similar component of your choice with the following message: "Hello ${firstName} ${lastName}!"
 
-# Optional Requirements
+# *Optional* Requirements
 
 1. Use the skeleton [MainViewModel](https://github.com/flaveapp/flave-android-challenge/blob/main/app/src/main/java/com/flaveapp/friendslist/MainViewModel.kt) with an Observable data holder pattern of your choice for passing data to the activity. 
 2. Fetch the friend list data asynchronously
