@@ -21,6 +21,24 @@ Your challenge is to build a vertically scrolling list which displays some metad
 2. Fetch the friend list data asynchronously
 3. Handle saving/restoring the ui state to avoid unneccessarily re-loading the friend list if the app goes to background (recents) or gets destroyed/recreated by the system 
 4. The list is displayed in sorted order by the `favoriteColor`. e.g. If there is a total of 3 Friend objects and 2 of them have the same `favoriteColor`, they will be displayed in positions 1 and 2 (the order in the group is not important), and in position 3 will be the friend with a different color. How you choose which color has precedence is not important, only that the items are displayed in order by "group" based on `favoriteColor`
+5. Implement fetching the frends list data from an actual test Flave API that will provide a simple json with friends. You can assume all fields are non-null. Note - there is no icon in this payload for each friend item, unlike the dummy data provided in the MainRepository, so feel free to use whatever you'd like for the icon in the list items.
+
+A shortended snippet of the payload is below:
+
+```
+{
+  "friends": [
+    {
+      "firstName": "LeBron",
+      "lastName": "James",
+      "birthday": 1614729949, // unix epoch timestamp
+      "color": "#03d7fc" // hex color string
+    },
+    ...
+  ]
+}
+```
+The public API is `https://firebasestorage.googleapis.com/v0/b/flave-web.appspot.com/o/files%2Ffriends.json?alt=media&token=9de95c33-bc2c-40c0-80a2-49b4be3c8abb`
 
 # Notes
 
