@@ -46,7 +46,7 @@ The public API is `https://firebasestorage.googleapis.com/v0/b/flave-web.appspot
 * You are free to leverage and use any 3rd party library in order to solve the project requirements - just keep in mind you may be asked questions about these libraries
 * You don't need to concern yourself with styles, themes, etc. If you would like to put in the extra effort for an elegant UI feel free to do so, but this is not an expectation of this coding challenge
 * You DO NOT need to write any Unit Tests. However the testability of your code will be taken into consideration. More on this below
-* Please push your work to GitHub or BitBucket and provide us with the link. We should be able to clone the repo and import your project into Android Studio directly so we can make a build (and review your source code)
+* Please branch OFF of `main` and name your branch with your firstname-lastname and push up your branch to the main repo so we can review. Alternatively you can fork the main repo and pass us your repo link. We should be able to clone the repo and import your project into Android Studio directly so we can make a build (and review your source code)
 
 # Considerations
 
