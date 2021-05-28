@@ -4,12 +4,10 @@ import android.graphics.Color
 import androidx.annotation.ColorInt
 import androidx.annotation.DrawableRes
 import java.util.Date
-import kotlin.random.Random
 
 private const val MILLIS_IN_DAY = 24 * 60 * 60 * 1000L
 
 private val COLORS = listOf(
-    Color.BLACK,
     Color.BLUE,
     Color.CYAN,
     Color.GREEN,
@@ -37,16 +35,12 @@ class MainRepository {
 
         val friends = mutableListOf<Friend>()
 
-        val randomColors = Random(COLORS.size)
-
-        val randomIcons = Random(PROFILE_ICONS.size)
-
         for (i in 0 until size) {
             friends.add(
                 createDummyFriend(
                     i,
-                    COLORS[randomColors.nextInt()],
-                    PROFILE_ICONS[randomIcons.nextInt()]
+                    COLORS[(COLORS.indices).random()],
+                    PROFILE_ICONS[(PROFILE_ICONS.indices).random()]
                 )
             )
         }
